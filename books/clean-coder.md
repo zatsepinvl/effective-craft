@@ -1,4 +1,6 @@
-####1. Professionalism
+### The Clean Coder: A Code of Conduct For Professional Programmers
+by Robert C. Martin 
+#### 1. Professionalism
 - Be careful what you ask for
 - Take responsibility and accountability
 - Do not harm
@@ -28,7 +30,7 @@
 - Never demean another for making a mistake
 - Never ridicule others
 
-####2. Saying No
+#### 2. Saying No
 - Professionals speak truth to power
 - Do not hesitate to say no and face confrontation, 
 the hard decisions are best made through the confrontation of adversarial roles
@@ -41,6 +43,6 @@ the hard decisions are best made through the confrontation of adversarial roles
 - Strive to find a way to say YES
 - The clients never care as much as you do
 
-####3. Saying Yes
+#### 3. Saying Yes
 
 
