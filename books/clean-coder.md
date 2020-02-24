@@ -1,5 +1,6 @@
 ### The Clean Coder: A Code of Conduct For Professional Programmers
 by Robert C. Martin 
+
 #### 1. Professionalism
 - Be careful what you ask for.
 - Take responsibility and accountability.
@@ -33,11 +34,22 @@ by Robert C. Martin
 - Professionals speak truth to power.
 - Do not hesitate to say no and face confrontation, 
 the hard decisions are best made through the confrontation of adversarial roles.
-- Do not provide too much deails in case of aversarial conversation as it can be an invitation for micro-management.
-- The higher the stackes, the more valuable "no" becomes.
+- Do not provide too much details in case of adversarial conversation as it can be an invitation for micro-management.
+- The higher the stakes, the more valuable "no" becomes.
 - Keen on being a team player.
 - Use every means in your power to help teammates, managers and customer.
 - Forget about trying. Either you do or you do not.
 - Be open, there is no place or time for passive aggression.
 - Strive to find a way to say YES.
 - The clients never care as much as you do.
+
+#### 3. Saying Yes
+- Make a commitment effectively:
+    1. You say you'll do it.
+    2. You mean it.
+    3. You actually do it.
+- Recognize lack of commitment around you, and in you.
+- Change your language of commitment to solve the communication problem.
+- Professionals live up to their words.
+- Instead of committing to do impossible work (or if it depends on someone else), you should commit to these specific actions that bring you closer to the end goal.
+- Change expectations as soon as possible.
