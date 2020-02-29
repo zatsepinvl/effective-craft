@@ -53,3 +53,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Professionals live up to their words.
 - Instead of committing to do impossible work (or if it depends on someone else), you should commit to these specific actions that bring you closer to the end goal.
 - Change expectations as soon as possible.
+- Do not abuse the word try. Say it clear, either you will or you wont.
+- Do not break disciplines, it only slows you down.
+- All commitments we make should be subordinate to the committed disciplines.
+- Professionals know their limits.
