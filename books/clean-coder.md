@@ -57,3 +57,12 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Do not break disciplines, it only slows you down.
 - All commitments we make should be subordinate to the committed disciplines.
 - Professionals know their limits.
+
+#### 4. Coding
+- Firstly, you must understand what problem you are solving. 
+- Secondly, you must understand how to solve that problem.
+- Your code must fit well into the existing system.
+- You must craft the code in such a way that it reveals your intent.
+- If you are tired or destructed, do not code. Dedication and professionalism are more about discipline that hours.
+- Professional developers allocate their personal time in order to ensure that the time spent at office is as productive as possible.
+- The professional attitude is a polite willingness to be helpful. 
