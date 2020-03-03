@@ -59,10 +59,25 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Professionals know their limits.
 
 #### 4. Coding
+#####Preparedness
 - Firstly, you must understand what problem you are solving. 
 - Secondly, you must understand how to solve that problem.
 - Your code must fit well into the existing system.
 - You must craft the code in such a way that it reveals your intent.
+
+#####Interruptions
 - If you are tired or destructed, do not code. Dedication and professionalism are more about discipline that hours.
 - Professional developers allocate their personal time in order to ensure that the time spent at office is as productive as possible.
-- The professional attitude is a polite willingness to be helpful. 
+- The professional attitude is a polite willingness to be helpful.
+
+#####Creativity
+- Remember that creativity breeds creativity.
+
+#####Debugging
+- It is incumbent upon you as a professional to reduce your debugging time as close to zero as you can get.
+
+#####Pacing Yourself
+- You must conserve your energy and creativity with the same care.
+- Learn your patterns of creativity and brilliance, and take advantage of them rather than work against them.
+- Disengagement allows your mind to hunt for solutions in a different and more creative way.
+- Sometimes the best way to solve a problem is to go home, eat dinner, watch TV, go to bed, and then wake up the next morning and take a shower.
