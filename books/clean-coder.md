@@ -81,3 +81,16 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Learn your patterns of creativity and brilliance, and take advantage of them rather than work against them.
 - Disengagement allows your mind to hunt for solutions in a different and more creative way.
 - Sometimes the best way to solve a problem is to go home, eat dinner, watch TV, go to bed, and then wake up the next morning and take a shower.
+
+#####Being Late
+- Do not incorporate hope into your estimates. Hope is a project killer.
+- Do not let anyone else have hope.
+- Hold your estimates.
+- Do not be tempted to rush.
+- Never buckle under pressure and agree to try to make the deadline.
+- You should not agree to work unless
+    1. You can personally afford it;
+    2. It is short term, two weeks or less
+    3. Your boss/manager has a fall-back plan in case the overtime effort fails.
+ - Avoid the problem of false delivery by creating in independent definition of "done".
+ 
