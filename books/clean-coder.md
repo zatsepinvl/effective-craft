@@ -90,7 +90,16 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Never buckle under pressure and agree to try to make the deadline.
 - You should not agree to work unless
     1. You can personally afford it;
-    2. It is short term, two weeks or less
+    2. It is short term, two weeks or less;
     3. Your boss/manager has a fall-back plan in case the overtime effort fails.
- - Avoid the problem of false delivery by creating in independent definition of "done".
+ - Avoid the problem of false delivery by creating an independent definition of "done".
+ 
+ #####Help
+ - No matter how skilled you are, you will certainly benefit from another programmer's thoughts and ideas.
+ - As a professional you are honor bound to offer that help whenever it is needed.
+ - Fresh perspective can be a profound catalyst for solving problems.
+ - As you are honor bound to offer help, you are honor bound to accept help. Be gracious about it.
+ - It is unprofessional to remain stuck when help is easily accessible.
+ - As a professional you should train less experienced programmers. 
+ 
  
