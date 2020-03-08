@@ -8,7 +8,7 @@ by Robert C. Martin
 - Imagine sometimes that it is your own money burned due to a bug.
 - As a professional when you make a mistake, you must clean up the mess.
 
-#####Do not harm.
+#####Do not harm
 - Practise merciless refactoring - remember the Boy Scout rule.
 - Software is too complex to create without bugs.
 - QA should find nothing.
