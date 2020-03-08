@@ -2,15 +2,22 @@
 by Robert C. Martin 
 
 #### 1. Professionalism
-- Be careful what you ask for.
+
+#####Taking Responsibility
 - Take responsibility and accountability.
-- Do not harm.
+- Imagine sometimes that it is your own money burned due to a bug.
+- As a professional when you make a mistake, you must clean up the mess.
+
+#####Do not harm.
 - Practise merciless refactoring - remember the Boy Scout rule.
 - Software is too complex to create without bugs.
 - QA should find nothing.
 - You must known it works.
 - You must to be able to execute tests on a whim.
-- If you want your software to be flexibly, you have to flex it!
+- If you want your software to be flexibly, you have to flex it! 
+The only way to prove that your software is easy to change to make easy changes to it.
+
+#####Work Ethic
 - Commit the principles and patterns of software design to memory and strive to conform your software to them.
 - Do not entrust your career to your employer.
 - 40 hours a week are for your employer / 20 hours a week are for you.
@@ -25,7 +32,7 @@ by Robert C. Martin
 - Collaborate.
 - Be a mentor.
 - Know your domain.
-- Indentify with employer/customer.
+- Identify with employer/customer.
 - Be humble.
 - Never demean another for making a mistake.
 - Never ridicule others.
