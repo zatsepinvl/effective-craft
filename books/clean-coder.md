@@ -3,12 +3,12 @@ by Robert C. Martin
 
 #### 1. Professionalism
 
-#####Taking Responsibility
+##### Taking Responsibility
 - Take responsibility and accountability.
 - Imagine sometimes that it is your own money burned due to a bug.
 - As a professional when you make a mistake, you must clean up the mess.
 
-#####Do not harm
+##### Do not harm
 - Practise merciless refactoring - remember the Boy Scout rule.
 - Software is too complex to create without bugs.
 - QA should find nothing.
@@ -17,7 +17,7 @@ by Robert C. Martin
 - If you want your software to be flexibly, you have to flex it! 
 The only way to prove that your software is easy to change to make easy changes to it.
 
-#####Work Ethic
+##### Work Ethic
 - Commit the principles and patterns of software design to memory and strive to conform your software to them.
 - Do not entrust your career to your employer.
 - 40 hours a week are for your employer / 20 hours a week are for you.
@@ -66,30 +66,30 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Professionals know their limits.
 
 #### 4. Coding
-#####Preparedness
+##### Preparedness
 - Firstly, you must understand what problem you are solving. 
 - Secondly, you must understand how to solve that problem.
 - Your code must fit well into the existing system.
 - You must craft the code in such a way that it reveals your intent.
 
-#####Interruptions
+##### Interruptions
 - If you are tired or destructed, do not code. Dedication and professionalism are more about discipline that hours.
 - Professional developers allocate their personal time in order to ensure that the time spent at office is as productive as possible.
 - The professional attitude is a polite willingness to be helpful.
 
-#####Creativity
+##### Creativity
 - Remember that creativity breeds creativity.
 
-#####Debugging
+##### Debugging
 - It is incumbent upon you as a professional to reduce your debugging time as close to zero as you can get.
 
-#####Pacing Yourself
+##### Pacing Yourself
 - You must conserve your energy and creativity with the same care.
 - Learn your patterns of creativity and brilliance, and take advantage of them rather than work against them.
 - Disengagement allows your mind to hunt for solutions in a different and more creative way.
 - Sometimes the best way to solve a problem is to go home, eat dinner, watch TV, go to bed, and then wake up the next morning and take a shower.
 
-#####Being Late
+##### Being Late
 - Do not incorporate hope into your estimates. Hope is a project killer.
 - Do not let anyone else have hope.
 - Hold your estimates.
@@ -101,7 +101,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
     3. Your boss/manager has a fall-back plan in case the overtime effort fails.
  - Avoid the problem of false delivery by creating an independent definition of "done".
  
- #####Help
+ ##### Help
  - No matter how skilled you are, you will certainly benefit from another programmer's thoughts and ideas.
  - As a professional you are honor bound to offer that help whenever it is needed.
  - Fresh perspective can be a profound catalyst for solving problems.
