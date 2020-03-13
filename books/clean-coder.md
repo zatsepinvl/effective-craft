@@ -19,6 +19,7 @@ The only way to prove that your software is easy to change to make easy changes 
 
 #####Work Ethic
 - Commit the principles and patterns of software design to memory and strive to conform your software to them.
+- It is not your employer's responsibility to give you time you need to learn.
 - Do not entrust your career to your employer.
 - 40 hours a week are for your employer / 20 hours a week are for you.
 - Be conversant with:
@@ -38,19 +39,35 @@ The only way to prove that your software is easy to change to make easy changes 
 - Never ridicule others.
 
 #### 2. Saying No
+
+##### Adversarial Roles
 - Professionals speak truth to power.
 - Do not hesitate to say no and face confrontation, 
 the hard decisions are best made through the confrontation of adversarial roles.
 - Do not provide too much details in case of adversarial conversation as it can be an invitation for micro-management.
+
+#### High Stakes
+- The most important time to say no is when the stakes are highest.
 - The higher the stakes, the more valuable "no" becomes.
+
+#### Being a "Team Player"
 - Keen on being a team player.
 - Use every means in your power to help teammates, managers and customer.
 - Forget about trying. Either you do or you do not.
 - Be open, there is no place or time for passive aggression.
+
+#### The Cost of Saying Yes
 - Strive to find a way to say YES.
 - The clients never care as much as you do.
 
+#### Code Impossible
+- Do not be tempted to be a hero or jedi.
+- Never drop your disciplines. It is not the way to solve problems.
+- Good code and professionalism are possible.
+
 #### 3. Saying Yes
+
+#### A Language of Commitment
 - Make a commitment effectively:
     1. You say you'll do it.
     2. You mean it.
@@ -58,6 +75,8 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Recognize lack of commitment around you, and in you.
 - Change your language of commitment to solve the communication problem.
 - Professionals live up to their words.
+
+#### Learning How to Say "Yes"
 - Instead of committing to do impossible work (or if it depends on someone else), you should commit to these specific actions that bring you closer to the end goal.
 - Change expectations as soon as possible.
 - Do not abuse the word try. Say it clear, either you will or you wont.
