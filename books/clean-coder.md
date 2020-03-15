@@ -128,4 +128,23 @@ the hard decisions are best made through the confrontation of adversarial roles.
  - It is unprofessional to remain stuck when help is easily accessible.
  - As a professional you should train less experienced programmers. 
  
+#### Test Driven Development
+
+##### The Jury Is In
+- TDD works.
+
+##### The Three Laws of TDD
+- You are not allowed to write any production code until you have first written a failing unit test.
+- You are not allowed to write more of a unit test than is sufficient to fail - and not compiling is failing.
+- You are not allowed to write more production code that is sufficient to pass the current failing unit test.
+
+##### The Litany Of Benefits
+- *Certainty*. You will write dozens of tests every day. If you keep all of them on hand, you will be certain that your code really works.
+- *Defect Injection Rate*.There are several facts of defect reduction by IBM, Microsoft and other companies.
+- *Courage*. When you have a suit of tests that you trust, then you lose all fear of making changes and cleaning code.
+- *Documentation*. The unit tests are documents that describe the lowest-level design of the system.
+- *Design*. The need to test first forces you to think about good design.
+
+##### What TDD Is Not
+ 
  
