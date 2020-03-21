@@ -128,7 +128,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
  - It is unprofessional to remain stuck when help is easily accessible.
  - As a professional you should train less experienced programmers. 
  
-#### Test Driven Development
+### 5. Test Driven Development
 
 #### The Jury Is In
 - TDD works.
