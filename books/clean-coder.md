@@ -1,14 +1,14 @@
-### The Clean Coder: A Code of Conduct For Professional Programmers
+## The Clean Coder: A Code of Conduct For Professional Programmers
 by Robert C. Martin 
 
-#### 1. Professionalism
+### 1. Professionalism
 
-##### Taking Responsibility
+#### Taking Responsibility
 - Take responsibility and accountability.
 - Imagine sometimes that it is your own money burned due to a bug.
 - As a professional when you make a mistake, you must clean up the mess.
 
-##### Do not harm
+#### Do not harm
 - Practise merciless refactoring - remember the Boy Scout rule.
 - Software is too complex to create without bugs.
 - QA should find nothing.
@@ -17,7 +17,7 @@ by Robert C. Martin
 - If you want your software to be flexibly, you have to flex it! 
 The only way to prove that your software is easy to change to make easy changes to it.
 
-##### Work Ethic
+#### Work Ethic
 - Commit the principles and patterns of software design to memory and strive to conform your software to them.
 - It is not your employer's responsibility to give you time you need to learn.
 - Do not entrust your career to your employer.
@@ -38,9 +38,9 @@ The only way to prove that your software is easy to change to make easy changes 
 - Never demean another for making a mistake.
 - Never ridicule others.
 
-#### 2. Saying No
+### 2. Saying No
 
-##### Adversarial Roles
+#### Adversarial Roles
 - Professionals speak truth to power.
 - Do not hesitate to say no and face confrontation, 
 the hard decisions are best made through the confrontation of adversarial roles.
@@ -65,7 +65,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Never drop your disciplines. It is not the way to solve problems.
 - Good code and professionalism are possible.
 
-#### 3. Saying Yes
+### 3. Saying Yes
 
 #### A Language of Commitment
 - Make a commitment effectively:
@@ -84,31 +84,31 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - All commitments we make should be subordinate to the committed disciplines.
 - Professionals know their limits.
 
-#### 4. Coding
-##### Preparedness
+### 4. Coding
+#### Preparedness
 - Firstly, you must understand what problem you are solving. 
 - Secondly, you must understand how to solve that problem.
 - Your code must fit well into the existing system.
 - You must craft the code in such a way that it reveals your intent.
 
-##### Interruptions
+#### Interruptions
 - If you are tired or destructed, do not code. Dedication and professionalism are more about discipline that hours.
 - Professional developers allocate their personal time in order to ensure that the time spent at office is as productive as possible.
 - The professional attitude is a polite willingness to be helpful.
 
-##### Creativity
+#### Creativity
 - Remember that creativity breeds creativity.
 
-##### Debugging
+#### Debugging
 - It is incumbent upon you as a professional to reduce your debugging time as close to zero as you can get.
 
-##### Pacing Yourself
+#### Pacing Yourself
 - You must conserve your energy and creativity with the same care.
 - Learn your patterns of creativity and brilliance, and take advantage of them rather than work against them.
 - Disengagement allows your mind to hunt for solutions in a different and more creative way.
 - Sometimes the best way to solve a problem is to go home, eat dinner, watch TV, go to bed, and then wake up the next morning and take a shower.
 
-##### Being Late
+#### Being Late
 - Do not incorporate hope into your estimates. Hope is a project killer.
 - Do not let anyone else have hope.
 - Hold your estimates.
@@ -120,7 +120,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
     3. Your boss/manager has a fall-back plan in case the overtime effort fails.
  - Avoid the problem of false delivery by creating an independent definition of "done".
  
- ##### Help
+#### Help
  - No matter how skilled you are, you will certainly benefit from another programmer's thoughts and ideas.
  - As a professional you are honor bound to offer that help whenever it is needed.
  - Fresh perspective can be a profound catalyst for solving problems.
@@ -130,26 +130,26 @@ the hard decisions are best made through the confrontation of adversarial roles.
  
 #### Test Driven Development
 
-##### The Jury Is In
+#### The Jury Is In
 - TDD works.
 
-##### The Three Laws of TDD
+#### The Three Laws of TDD
 - You are not allowed to write any production code until you have first written a failing unit test.
 - You are not allowed to write more of a unit test than is sufficient to fail - and not compiling is failing.
 - You are not allowed to write more production code that is sufficient to pass the current failing unit test.
 
-##### The Litany Of Benefits
+#### The Litany Of Benefits
 - *Certainty*. You will write dozens of tests every day. If you keep all of them on hand, you will be certain that your code really works.
 - *Defect Injection Rate*.There are several facts of defect reduction by IBM, Microsoft and other companies.
 - *Courage*. When you have a suit of tests that you trust, then you lose all fear of making changes and cleaning code.
 - *Documentation*. The unit tests are documents that describe the lowest-level design of the system.
 - *Design*. The need to test first forces you to think about good design.
 
-##### What TDD Is Not
+#### What TDD Is Not
 - You can still write bad code even if you write your tests first, you can write bad tests.
 - No professional developer should ever follow a discipline when that discipline does more harm than good.
 
-#### 6. Practicing
+### 6. Practicing
 
  
  
