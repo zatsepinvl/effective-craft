@@ -140,7 +140,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
 
 #### The Litany Of Benefits
 - *Certainty*. You will write dozens of tests every day. If you keep all of them on hand, you will be certain that your code really works.
-- *Defect Injection Rate*.There are several facts of defect reduction by IBM, Microsoft and other companies.
+- *Defect Injection Rate*. There are several facts of defect reduction by IBM, Microsoft and other companies.
 - *Courage*. When you have a suit of tests that you trust, then you lose all fear of making changes and cleaning code.
 - *Documentation*. The unit tests are documents that describe the lowest-level design of the system.
 - *Design*. The need to test first forces you to think about good design.
