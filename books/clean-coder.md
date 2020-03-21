@@ -146,5 +146,10 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - *Design*. The need to test first forces you to think about good design.
 
 ##### What TDD Is Not
+- You can still write bad code even if you write your tests first, you can write bad tests.
+- No professional developer should ever follow a discipline when that discipline does more harm than good.
+
+#### 6. Practicing
+
  
  
