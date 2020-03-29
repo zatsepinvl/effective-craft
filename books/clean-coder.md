@@ -150,6 +150,17 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - No professional developer should ever follow a discipline when that discipline does more harm than good.
 
 ### 6. Practicing
+- Again, never stop practicing.
+- Practice on your own time. It is not your employer job to help you to keep your skills sharp for you.
 
- 
- 
+#### The Coding Dojo
+- Doing anything quickly requires practice.
+- Choose a repertoire of problem/solution paris and execute them over and over again until you know them cold.
+- Practice Kata.
+- Practise Wasa.
+- Practise Randori.
+
+#### Broadening Your Experience
+- Diverse your experience.
+- Contribute to an open-source project.
+- Do not use the same language or platform that you use at work.
