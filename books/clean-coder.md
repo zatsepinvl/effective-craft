@@ -164,3 +164,17 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Diverse your experience.
 - Contribute to an open-source project.
 - Do not use the same language or platform that you use at work.
+
+### 7. Acceptance Testing
+
+#### Communicating Requirements
+- Remember that a vision of features does not often survive actual contact with the computer.
+- Do not succumb to temptation to fall into the trap of premature precision.
+- Follow The Uncertainty Principle: The more precise you make your requirements, the less relevant they become as the system is implemented. 
+- The uncertainty principle makes hash out of early precision. The requirements _will_ change making that precision moot.
+- You must make estimates based on low precision requirements and recognize that those estimates _are estimates_.
+- Always include error bars with the estimates so that the business understands the uncertainty (see Chapter 10).
+- The solution to premature precision is to defer precision as long as possible and eliminate _late ambiguity_.
+- It's your responsibility to make sure that all ambiguity is removed from the requirements.
+
+#### Acceptance Tests 
