@@ -178,3 +178,16 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - It's your responsibility to make sure that all ambiguity is removed from the requirements.
 
 #### Acceptance Tests 
+- Acceptance tests define when a requirement is done. They allow you to to know then you are done.
+- _Done_ means all code written, all tests pass, QA and stakeholders have accepted. Done.
+- You must work with stakeholders and QA to ensure that the automated tests are a complete specification of done.
+- You must ensure that all parties know what is about to be built.
+- Acceptance tests should _always_ be automated. The reason is simple: cost.
+- It's your job (as a developer) to connect the acceptance tests to the system, and then to make those tests pass.
+- It's your job to negotiate with the test author for a better test.
+- Never take the passive-aggressive option and say to yourself, "Well, that's what the test says, so that's what I'm going to do".
+- The primary purpose of acceptance tests is to formally document the design, structure, and behavior of the system. They are written by the business for the business.
+- Test through the right interface. Separate testing of business rules from testing GUI. 
+- Keep the GUI tests to a minimum. They are fragile, because the GUI is volatile.
+- Include the acceptance tests into CI/CD systems.
+- A broken build in the CI system should be viewed as an emergency, as "stop the presses" event.
