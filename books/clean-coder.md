@@ -191,3 +191,29 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Keep the GUI tests to a minimum. They are fragile, because the GUI is volatile.
 - Include the acceptance tests into CI/CD systems.
 - A broken build in the CI system should be viewed as an emergency, as "stop the presses" event.
+
+### 8. Testing Strategies
+
+#### QA Should Find Nothing
+- It's your goal as a professional developer that QA find nothing wrong.
+- QA and development team should be working together.
+- QA team gather the requirements from the business and writes the corner, boundary, and unhappy-path tests.
+- QA team should identify the actual behavior of the system and report it back to development and business.
+
+#### The Test Automation Pyramid
+![The test automation pyramid](./assets/clean_coder_the_test_automation_pyramid.png "The test automation pyramid")
+
+##### Unit Tests
+- Intended to specify system at the lowest level.
+- Written by developers for developers, in programming language of the system.
+- Cover unhappy-path cases as well.
+- Executed as part of CI/CD
+
+##### Component Tests
+- Written by QA and Business with assistance from development.
+- Intended to be read and interpreted by business.
+- Cover component functionality only with mocking and test-doubling dependencies.
+- Executed as part of CI/CD
+
+#### Integration Tests
+- 
