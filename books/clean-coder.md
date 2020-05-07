@@ -210,10 +210,24 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Executed as part of CI/CD
 
 ##### Component Tests
-- Written by QA and Business with assistance from development.
 - Intended to be read and interpreted by business.
+- Written by QA and Business with assistance from development.
 - Cover component functionality only with mocking and test-doubling dependencies.
 - Executed as part of CI/CD
 
-#### Integration Tests
-- 
+##### Integration Tests
+- Written by developers.
+- Cover the architectural structure of the system, not business rules. 
+  Ensure that all components connected and clearly communicate with each other.
+- Can include throughout and performance tests.
+- Executed periodically (nightly, weekly, etc.). 
+
+##### System Tests
+- Written by architects and tech leads.
+- The ultimate integration tests.
+- Ensure correct system construction.
+
+##### Manual Exploratory Tests
+- Performed by everyone manually.
+- Ensure that system behaves well under human operation.
+- Give a way to creatively find as many bugs as possible.
