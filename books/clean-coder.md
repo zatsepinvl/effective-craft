@@ -1,6 +1,10 @@
 ## The Clean Coder: A Code of Conduct For Professional Programmers
 by Robert C. Martin 
 
+(!) This list of main statements from the book serves for quick look up after reading to refresh the memory. 
+This list doesn't try to substitute the reading of the book.
+Reading the book is necessary to understand some points and eliminate possible ambiguity.
+
 ### 1. Professionalism
 
 #### Taking Responsibility
@@ -231,3 +235,22 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Performed by everyone manually.
 - Ensure that system behaves well under human operation.
 - Give a way to creatively find as many bugs as possible.
+
+### 9. Time Management
+#### Meetings
+- Meetings are necessary and huge time wasters. 
+- Meetings spend not only your time but also your project's time,
+ your employer's time, your employer's  money.
+- Remember that it's only you who is responsible for managing your time.
+
+##### Declining
+- You should politely resist attending meetings that don't have an immediate 
+ and significant benefit for your job you are doing now.
+- Ask your team and manager for help to decide whether you should attend a meeting.
+- One of the most important duties of your manager is to keep you out of meetings.
+
+##### Leaving
+- When the meeting gets boring, leave. Find a way to politely exit that meeting.
+
+##### Have an Agenda and a Goal
+- :tbd
