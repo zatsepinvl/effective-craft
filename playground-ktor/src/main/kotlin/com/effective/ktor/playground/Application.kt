@@ -1,16 +1,24 @@
 package com.effective.ktor.playground
 
-import io.ktor.application.*
-import io.ktor.response.*
-import io.ktor.routing.*
-import io.ktor.http.*
-import io.ktor.websocket.*
-import io.ktor.http.cio.websocket.*
-import java.time.*
-import com.fasterxml.jackson.databind.*
-import io.ktor.jackson.*
-import io.ktor.features.*
+import com.fasterxml.jackson.databind.SerializationFeature
+import io.ktor.application.Application
+import io.ktor.application.call
+import io.ktor.application.install
+import io.ktor.features.ContentNegotiation
+import io.ktor.http.ContentType
+import io.ktor.http.cio.websocket.Frame
+import io.ktor.http.cio.websocket.pingPeriod
+import io.ktor.http.cio.websocket.readText
+import io.ktor.http.cio.websocket.timeout
+import io.ktor.jackson.jackson
+import io.ktor.response.respond
+import io.ktor.response.respondText
+import io.ktor.routing.get
+import io.ktor.routing.routing
 import io.ktor.server.netty.EngineMain
+import io.ktor.websocket.WebSockets
+import io.ktor.websocket.webSocket
+import java.time.Duration
 
 fun main(args: Array<String>): Unit = EngineMain.main(args)
 

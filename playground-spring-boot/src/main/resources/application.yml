@@ -1,0 +1,5 @@
+keycloak:
+  auth-server-url: ${KEYCLOAK_AUTH_SERVER_URL}
+  realm: ${KEYCLOAK_REALM}
+  resource: ${KEYCLOAK_RESOURCE}
+  public-client: ${KEYCLOAK_PUBLIC_CLIENT}
