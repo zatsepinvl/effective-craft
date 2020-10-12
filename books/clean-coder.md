@@ -44,10 +44,7 @@ The only way to prove that your software is easy to change to make easy changes 
 - Never ridicule others.
 </details>
 
-<details>
-<summary>
-2. Saying No
-</summary>
+## 2. Saying No
     
 ### Adversarial Roles
 - Professionals speak truth to power.
@@ -75,6 +72,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Good code and professionalism are possible.
 
 ## 3. Saying Yes
+
 ### A Language of Commitment
 - Make a commitment effectively:
     1. You say you'll do it.
@@ -93,6 +91,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Professionals know their limits.
 
 ## 4. Coding
+
 ### Preparedness
 - Firstly, you must understand what problem you are solving. 
 - Secondly, you must understand how to solve that problem.
@@ -137,6 +136,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
  - As a professional you should train less experienced programmers. 
  
 ## 5. Test Driven Development
+
 ### The Jury Is In
 - TDD works.
 
@@ -240,6 +240,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Give a way to creatively find as many bugs as possible.
 
 ## 9. Time Management
+
 ### Meetings
 - Meetings are necessary and huge time wasters. 
 - Meetings spend not only your time but also your project's time,
