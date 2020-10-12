@@ -5,8 +5,11 @@ by Robert C. Martin
 This list doesn't try to substitute reading the book.
 Reading the book is necessary to understand some points and eliminate possible ambiguity.
 
+<details>
+<summary>
 ### 1. Professionalism
-
+</summary>
+    
 #### Taking Responsibility
 - Take responsibility and accountability.
 - Imagine sometimes that it is your own money burned due to a bug.
@@ -41,8 +44,10 @@ The only way to prove that your software is easy to change to make easy changes 
 - Be humble.
 - Never demean another for making a mistake.
 - Never ridicule others.
+</details>
 
-### 2. Saying No
+<details>
+<summary>### 2. Saying No<summary>
 
 #### Adversarial Roles
 - Professionals speak truth to power.
@@ -68,7 +73,8 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Do not be tempted to be a hero or jedi.
 - Never drop your disciplines. It is not the way to solve problems.
 - Good code and professionalism are possible.
-
+</details>
+    
 ### 3. Saying Yes
 
 #### A Language of Commitment
