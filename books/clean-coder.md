@@ -7,6 +7,7 @@ Reading the book is necessary to understand some points and eliminate possible a
 
 <details>
 <summary>
+    
 ### 1. Professionalism
 </summary>
     
@@ -47,7 +48,10 @@ The only way to prove that your software is easy to change to make easy changes 
 </details>
 
 <details>
-<summary>### 2. Saying No<summary>
+<summary>
+    
+### 2. Saying No
+<summary>
 
 #### Adversarial Roles
 - Professionals speak truth to power.
