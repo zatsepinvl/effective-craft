@@ -1,0 +1,84 @@
+# Original file: https://raw.githubusercontent.com/istio/istio/release-1.6/samples/bookinfo/platform/kube/bookinfo.yaml
+
+##################################################################################################
+# This file defines the services, service accounts, and deployments for the Bookinfo sample.
+#
+# To apply all 4 Bookinfo services, their corresponding service accounts, and deployments:
+#
+#   kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
+#
+# Alternatively, you can deploy any resource separately:
+#
+#   kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml -l service=reviews # reviews Service
+#   kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml -l account=reviews # reviews ServiceAccount
+#   kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml -l app=reviews,version=v3 # reviews-v3 Deployment
+##################################################################################################
+
+##################################################################################################
+# Playground service
+##################################################################################################
+apiVersion: v1
+kind: Service
+metadata:
+  name: playground-spring
+  labels:
+    app: playground-spring
+    service: playground-spring
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8080
+      name: http
+  selector:
+    app: playground-spring
+---
+#apiVersion: v1
+#kind: ServiceAccount
+#metadata:
+#  name: bookinfo-details
+#  labels:
+#    account: details
+#---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: playground-spring-v1
+  labels:
+    app: playground-spring
+    version: v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: playground-spring
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: playground-spring
+        version: v1
+    spec:
+      #serviceAccountName: playground-spring
+      containers:
+        - name: playground-spring
+          image: playground-spring-boot-0.0.1-dev
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+---
+###Ingress
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: test-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /playground
+            pathType: Prefix
+            backend:
+              serviceName: playground-spring
+              servicePort: 8080

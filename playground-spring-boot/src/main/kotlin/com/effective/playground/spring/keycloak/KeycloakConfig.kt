@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 
 @Configuration
+@KeycloakEnabledOnly
 @EnableConfigurationProperties(KeycloakProps::class)
 class KeycloakConfig(
         private val keycloakProps: KeycloakProps

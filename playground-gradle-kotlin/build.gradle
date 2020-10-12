@@ -13,6 +13,8 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     implementation "org.elasticsearch.client:elasticsearch-rest-high-level-client:7.6.2"
     implementation "com.fasterxml.jackson.core:jackson-databind:2.10.0"
+
+    implementation 'com.netflix.hystrix:hystrix-core:1.5.18'
 }
 
 compileKotlin {

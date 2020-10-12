@@ -30,6 +30,7 @@ class KeycloakLoginHandler(
                         + "&response_type=code"
                         + "&scope=openid"
                         + "&redirect_uri=$redirectUri"
+                        + "&prompt=select_account"
                         + if (rememberMe == true) "&state=rememberMe" else ""
         )
         return ResponseEntity

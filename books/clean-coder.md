@@ -41,7 +41,6 @@ The only way to prove that your software is easy to change to make easy changes 
 - Be humble.
 - Never demean another for making a mistake.
 - Never ridicule others.
-</details>
 
 ## 2. Saying No
     
