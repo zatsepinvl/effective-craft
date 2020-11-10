@@ -1,5 +1,4 @@
-# Summary of The Clean Coder
-by Robert C. Martin 
+# Summery of "The Clean Coder" by Robert C. Martin 
 
 This list of main statements from the book serves for quick look up after reading to refresh the memory. 
 This list doesn't try to substitute reading the book.
