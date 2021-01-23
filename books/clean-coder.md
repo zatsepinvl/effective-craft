@@ -60,7 +60,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Be open, there is no place or time for passive aggression.
 
 ### The Cost of Saying Yes
-- Strive to find a way to say YES.
+- Strive to find a way to say YES. But remember that sometimes the only way to get to the right yes is to be unafraid to say no.
 - The clients never care as much as you do.
 
 ### Code Impossible
