@@ -254,4 +254,34 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - When the meeting gets boring, leave. Find a way to politely exit that meeting.
 
 #### Have an Agenda and a Goal
+- Make sure you know agenda, and a goal of a meeting you are asked to go. 
+- If the agenda has been high jacked during the meeting, request that the new topic be tabled and the agenda be followed.
+
+#### Stand-Up Meetings
+- Each participant should require no more than **one minute** to answer the questions:
+    - What did I do yesterday?
+    - What am I going to do today?
+    - What's in my way?
+
+#### Iteration Planning Meetings
+- Select the backlog items that will be executed in the next iteration.
+    - Estimates should already be done.
+    - Assessment of business value should already be done.
+    - (In really good orgs) The acceptance/component tests should already be written or sketched out.
+- Discuss briefly each candidate backlog item and then either select or reject it.
+    - No more than 5-10 minutes on each item.
+- Ideally, this meeting should take no more than 5% of the total work time in the iteration.
+
+#### Iteration Retrospective and Demo
+- Iteration Retrospective
+    - Conducted at the end of each iteration.
+    - Discuss what went right and what went wrong.
+    - No more than 20 minutes.
+- Demo
+    - Stakeholders see a demo of the newly working features.
+    - No more than 25 minutes.
+- Schedule them before quitting time on the last day of the iteration.
+- Remember, it's only been a week or two so there shouldn't be all that uch to talk about.
+
+#### Arguments/Disagreements
 - :tbd
