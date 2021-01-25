@@ -284,4 +284,18 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Remember, it's only been a week or two so there shouldn't be all that uch to talk about.
 
 #### Arguments/Disagreements
+- _"Any argument that can't be settled in five minutes can't be settled by arguing."_ - Kent Beck.
+- Never agree just to end the argument, and then sabotage the result by refusing to engage in the solution. 
+If you agree, then you _must_ engage.
+- Data matters in technical arguments. Without data, any argument that doesn't forge agreement within 
+a few minutes simple won't ever forge agreement.
+- You can get the data by running experiments, simulation, modeling.
+- Sometimes it's OK just to flip a coin to choose one of the two paths.Then agree on a time as well as a set of criteria to help 
+determine when the chosen path should be abandoned.
+- If an argument must truly be settled:
+    1. Ask each of the arguers to present their case in five minutes or less.
+    2. Have the team vote.
+    3. The whole meeting will take less than fifteen minutes.
+
+### Focus-Manna
 - :tbd
