@@ -298,4 +298,29 @@ determine when the chosen path should be abandoned.
     3. The whole meeting will take less than fifteen minutes.
 
 ### Focus-Manna
-- :tbd
+- Programming is an intellectual exercise that requires extended period of concentration and focus.
+- Focus-Manna is a unit for measuring how efficient you can concentrate and write code.
+- Professional developers learn to manage their time to take advantage of their focus-manna.
+- Meetings, worry and distractions consume much focus-manna.
+
+#### Sleep
+- Professional developers manage their sleep schedule to ensure that they topped up their focus-manna by the 
+time they get to work in the morning.
+
+#### Caffeine
+- There is no doubt that some of us can make more efficient use of our focus-manna by consuming **moderate** amounts of caffeine.
+But take care. Caffeine usage and tolerance is a personal thing.
+
+#### Recharging
+- Focus-manna can be partially recharged by de-focussing: long walk, chat with friends or just looking out a window.
+- When you are tired, it's better to take 30-60 minutes to de-focus.
+
+#### Muscle Focus
+- Just do physical exercises every day for at least 20 minutes. 
+- Whatever the activity, there is something abut activities that focus on muscles that enhances the ability to work with your mind.
+
+#### Input versus Output
+- Balance creativity output _like coding_ with appropriate input _like reading of science fiction_.
+- [Note] Creative input breeds creative output.
+
+
