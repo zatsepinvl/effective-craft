@@ -323,4 +323,19 @@ But take care. Caffeine usage and tolerance is a personal thing.
 - Balance creativity output _like coding_ with appropriate input _like reading of science fiction_.
 - [Note] Creative input breeds creative output.
 
+### Time Boxing and Tomatoes
+- [Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique).
+    - Pick a task from a todo list.
+    - Set timer for 25 minutes and focus only on the task.
+    - While that timer is running, you let **nothing** interfere with what you are doing.
+    - Regardless of the interruption (phone call, skype call, whatever), you simply defer it until the timer dings.
+    - When the tomato timer dings you stop what you are doing **immediately**.
+    - Then you deal with any interruptions that occurred during the tomato.
+    - Then you take a break of five minutes or so.
+    - Repeat. 
+- It is within tomatoes that you get real work done.
+- You can count finished tomatoes and chart them to see your velocity.
+- The real benefit of the technique is that 25-minute windows of productive time that you aggressively defend against all interruptions.
 
+### Avoidance
+- :tbd
