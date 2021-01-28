@@ -338,4 +338,27 @@ But take care. Caffeine usage and tolerance is a personal thing.
 - The real benefit of the technique is that 25-minute windows of productive time that you aggressively defend against all interruptions.
 
 ### Avoidance
+#### Priority Inversion
+- Whatever the reason, don't try to find ways to avoid doing the real work. Don't do _priority inversion_.
+- Professionals evaluate the priority of each task, disregarding their personal fears and desires, and execute those tasks in priority order.
+
+### Blind Alleys
+- Software craftmen have to make decisions. Sometimes chosen technical pathways lead to nowhere. These are blind alleys. 
+- You should quickly realize when you are in one, and have the courage to back out.
+- The Rule of Holes: When you are in one, stop digging.
+- Professionals keep an open mind about other ideas so that when they hit a head end they still have other options.
+
+### Marches, Bogs, Swamps and Other Messes
+- Professionals fear messes far more than they fear blind alleys. They are always on the lookout for messes that start to grow without bound, 
+and will extend all necessary effort to escape from them as early and as quickly as possible.
+- Knowing you are in a swamp and moving forward is the worst kind of priority inversion.
+
+### Conclusion
+- Be diligent in the management of your time and focus.
+- Fight _priority inversion_ as a matter of honor.
+- Be open-minded about alternate solutions.
+- Never become so vested in a solution that you can't abandon it.
+- Be always of the lookout for growing messes.
+
+## 10. Estimation
 - :tbd
