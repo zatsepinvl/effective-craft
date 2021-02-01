@@ -361,4 +361,21 @@ and will extend all necessary effort to escape from them as early and as quickly
 - Be always of the lookout for growing messes.
 
 ## 10. Estimation
+### What is an Estimate?
+#### A Commitment
+- Professionals don't make commitments unless they _know_ they can achieve them.
+- You are honor bound to decline to make a commitment to something that you aren't certain you can do.
+- Commitment is about _certainty_. 
+- Missing a commitment is an act of dishonesty only slightly less onerous than an overt lie. 
+
+#### An Estimate
+- An estimate is a guess. No commitment is implied. No promise is made.
+- Understand the true nature of an estimate: Estimate is not a number. An estimate is a distribution.
+
+#### Implied Commitments
+- Professionals draw a clear distinction between estimates and commitments.
+- Professionals communicate the probability distribution of their estimates as clearly as possible, 
+so managers can make appropriate plans.
+
+### PERT
 - :tbd
