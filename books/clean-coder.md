@@ -118,7 +118,7 @@ the hard decisions are best made through the confrontation of adversarial roles.
 - Hold your estimates.
 - Do not be tempted to rush.
 - Never buckle under pressure and agree to try to make the deadline.
-- You should not agree to work unless
+- You should not agree to work overtime unless
     1. You can personally afford it;
     2. It is short term, two weeks or less;
     3. Your boss/manager has a fall-back plan in case the overtime effort fails.
