@@ -378,4 +378,19 @@ and will extend all necessary effort to escape from them as early and as quickly
 so managers can make appropriate plans.
 
 ### PERT
-- :tbd
+- PERT - Programm Evaluation and Review Technique - the scheme that provides a way to convert estimates into 
+probability distribution suitable for managers.
+- When you estimate a task, you provide three numbers:
+    1. O: Optimistic Estimate - when absolutely everything went right. Should be less than 1% chance of occurrence.
+    2. N: Normal Estimate - the greatest chance of success.
+    3. P: Pessimistic Estimate - when absolutely everything went wrong. Should be less than 1 % chance of success.
+- Then expected duration of the task is _μ = (O + 4N + P) / 6_.
+- Standard deviation of the task is _σ = (P - O) / 6_.
+- Then sum all expected durations to get the _estimated_ schedule: _μ<sub>sequence</sub> = sum( μ<sub>task</sub> )_.
+- Then calculate deviation: _σ<sub>sequence</sub> = sqrt(sum(σ<sub>task</sub>)^2))_.
+- Example:
+
+| Task | Optimistic | Nominal | Pessimistic |  μ  |  σ  |
+|------|------------|---------|-------------|-----|-----|
+| Alpha| 1          | 2       | 12          | 4.2 | 1.8 |
+:tbd
