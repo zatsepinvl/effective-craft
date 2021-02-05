@@ -437,5 +437,5 @@ Buckets might be in days, weeks or points (e.g. 1,2,3,5,8).
 ##### Trivariate Estimates
 - Use these approaches to create estimates according PERT (pessimistic, normal, optimistic).
 
-#### The Law of Large Number
+### The Law of Large Number
 - :rbd
