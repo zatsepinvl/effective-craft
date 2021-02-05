@@ -402,8 +402,8 @@ probability distribution suitable for managers.
 | Gamma | 3          | 6.25    | 11          | 6.5 | 1.3 |
 
 - So that
-    - _μ<sub>sequence</sub> = sum( μ<sub>task</sub> )_ ~ 14 days (14.2)
-    - _σ<sub>sequence</sub> = sqrt(sum(σ<sub>task</sub>)^2))_ ~ 3 days (3.13)
+    - Expended duration - _μ<sub>sequence</sub> = sum( μ<sub>task</sub> )_ ~ 14 days (14.2)
+    - Deviation - _σ<sub>sequence</sub> = sqrt(sum(σ<sub>task</sub>)^2))_ ~ 3 days (3.13)
     - But it also could take 17 days (μ<sub>sequence</sub> + 1σ) and even 20 days (μ<sub>sequence</sub> + 2σ).
 - The uncertainty in the tasks compounds in a way that adds realism to the plan.
 - Software professionals are very careful to set reasonable expectations despite the pressure to _try_ to go fast.
