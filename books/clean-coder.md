@@ -383,7 +383,7 @@ probability distribution suitable for managers.
 - When you estimate a task, you provide three numbers:
     1. O: Optimistic Estimate - when absolutely everything went right. Should be less than 1% chance of occurrence.
     2. N: Normal Estimate - the greatest chance of success.
-    3. P: Pessimistic Estimate - when absolutely everything went wrong. Should be less than 1 % chance of success.
+    3. P: Pessimistic Estimate - when absolutely everything went wrong. Should be less than 1% chance of success.
 - Equations
 
 | Name                                                            |  Equation              |
@@ -391,8 +391,8 @@ probability distribution suitable for managers.
 | Expected duration of the task                                   | _μ = (O + 4N + P) / 6_ |
 | Standard deviation of the probability distribution for the task | _σ = (P - O) / 6_      |
 
-- Then sum all expected durations to get the _estimated_ schedule: _μ<sub>sequence</sub> = sum( μ<sub>task</sub> )_.
-- Then calculate deviation: _σ<sub>sequence</sub> = sqrt(sum(σ<sub>task</sub>)^2))_.
+- Sum all expected durations to get the _estimated_ schedule: _μ<sub>sequence</sub> = sum( μ<sub>task</sub> )_.
+- Calculate deviation: _σ<sub>sequence</sub> = sqrt(sum(σ<sub>task</sub>)^2))_.
 - Example:
 
 | Task  | Optimistic | Nominal | Pessimistic |  μ  |  σ  |
@@ -401,7 +401,7 @@ probability distribution suitable for managers.
 | Beta  | 1          | 1.5     | 14          | 3.5 | 2.2 |
 | Gamma | 3          | 6.25    | 11          | 6.5 | 1.3 |
 
-- Then
+- So that
     - _μ<sub>sequence</sub> = sum( μ<sub>task</sub> )_ ~ 14 days (14.2)
     - _σ<sub>sequence</sub> = sqrt(sum(σ<sub>task</sub>)^2))_ ~ 3 days (3.13)
     - But it also could take 17 days (μ<sub>sequence</sub> + 1σ) and even 20 days (μ<sub>sequence</sub> + 2σ).
@@ -416,4 +416,26 @@ probability distribution suitable for managers.
 - There are several low-overhead approaches like _Flying Fingers_, _Planning Poker_, _Affinity Estimation_, _Trivariate Estimates_.
 
 ##### Flying Fingers
-- Everybody sits around a table. Participants put their hands below TBD
+- Everybody sits around a table. Participants put their hands below it and raise 0 to 5 fingers as their task duration estimate. 
+The moderator counts 1-2-3, and all the participants show their hands at once. If everyone agrees, go on to the next task. 
+Otherwise continue the discussion. Repeat until all agree.
+- The scale of the estimate is decided on at the beginning of the meeting.
+
+##### Planning Poker
+- For each member of the estimation team, deal a hand of cards with different numbers on them (e.g. 0-5 or 1,3,5,10).
+Pick a task and discuss it.
+Then everyone picks a card that matches their estimate and hold it up with the back facing outward. 
+Then everyone shows their cards. If there is agreement, accept the estimate, otherwise discuss.
+ 
+##### Affinity Estimation
+- All the tasks are written onto cards without estimates. Do not talk. 
+Simply start sorting cards relative to one another: longer to the right, smaller to the left.
+Anyone can move any card ay any time. Any card moved more than _n_ times is set aside for discussion.
+Then discuss the order to gain consensus. Then draw lines between cards that represent bucket sizes.
+Buckets might be in days, weeks or points (e.g. 1,2,3,5,8).
+
+##### Trivariate Estimates
+- Use these approaches to create estimates according PERT (pessimistic, normal, optimistic).
+
+#### The Law of Large Number
+- :rbd
