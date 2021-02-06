@@ -438,4 +438,14 @@ Buckets might be in days, weeks or points (e.g. 1,2,3,5,8).
 - Use these approaches to create estimates according PERT (pessimistic, normal, optimistic).
 
 ### The Law of Large Number
-- :rbd
+- Estimates are fraught with error. That's why they are called estimates.
+- If you break up a large task into many smaller tasks and estimate them independently, 
+the sum of the estimates of the small tasks will be more accurate than a single estimate of the large task.
+
+### Conclusion
+- Don't make promises that you can't keep.
+- Provide probabilistic estimates that describe the expected completion time and the likely variance.
+- Work with the team to make estimates using the mentioned techniques.
+
+## 11. Pressure
+- tbd
