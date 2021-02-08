@@ -448,4 +448,23 @@ the sum of the estimates of the small tasks will be more accurate than a single 
 - Work with the team to make estimates using the mentioned techniques.
 
 ## 11. Pressure
+- Be calm and decisive under pressure. As the pressure grows adhere to training and disciplines.
+- The best way to say calm under the pressure is to avoid the situations that cause pressure (no pressure causing situations no pressure :).
+
+### Avoiding Pressure
+
+#### Commitments
+- Do not accept unrealistic commitments that make a lot of pressure.
+- Professionals are honor bound to help the business find a way to meet the commitments made for them by the business. 
+However, they are _not_ honor bound to accept the commitments.
+
+#### Staying Clean
+- Do not succumb to the temptation to create a mess in order to move quickly. Dirty always means slow.
+- Do not spend endless hours polishing code, just don't tolerate messes.
+
+#### Crisis Discipline
+- Do not abandon your disciplines during the crisis.
+- Choose disciplines that you feel comfortable following in a crisis. _Then follow them all the time_.  
+
+### Handling Pressure
 - tbd
