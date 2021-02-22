@@ -467,4 +467,34 @@ However, they are _not_ honor bound to accept the commitments.
 - Choose disciplines that you feel comfortable following in a crisis. _Then follow them all the time_.  
 
 ### Handling Pressure
-- tbd
+
+#### Don't Panic
+- Never rush. Instead, slow down. 
+- Think the problem through and drive towards the best possible outcome at a steady pace.
+
+#### Communicate
+- Let your team and your superiors know that you are in trouble, tell them your best plans and ask them for guidance.
+- Avoid creating surprises. Surprises multiply the pressure by ten. 
+
+#### Rely on Your Disciplines
+- Trust your disciplines. There are not the times to question or abandon them.
+- The only way through the pressure cooker is to rely on what you already know works - your disciplines.
+
+#### Get Help
+- Pair program.
+- Ask for help, and by the same token, offer to pair with someone who is in trouble. 
+
+### Conclusion
+- The trick to handling pressure is to avoid it when you can by: 
+    - managing commitments,
+    - following your disciplines,
+    - keeping clean,
+- and weather it when you can't by:
+    - staying calm,
+    - communicating,
+    - following your disciplines,
+    - getting help.
+
+## 12. Collaboration
+- :tbd
+
