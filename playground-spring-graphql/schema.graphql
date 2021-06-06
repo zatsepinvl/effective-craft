@@ -1,0 +1,22 @@
+# This file was generated based on ".graphqlconfig". Do not edit manually.
+
+schema {
+    query: Query
+}
+
+type Author {
+    firstName: String
+    id: ID
+    lastName: String
+}
+
+type Book {
+    author: Author
+    id: ID
+    name: String
+    pageCount: Int
+}
+
+type Query {
+    bookById(id: ID): Book
+}
