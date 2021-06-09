@@ -22,10 +22,17 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-    //CSV streaming
+    // CSV streaming
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.12.1")
 
-    //Docker client
+    // GraphQL
+    //      Main graphql java lib
+    implementation("com.graphql-java-kickstart:graphql-spring-boot-starter:11.1.0")
+    //      Generates GraphQLSchema from *.graphqls class: https://www.graphql-java-kickstart.com/tools/
+    implementation("com.graphql-java-kickstart:graphql-java-tools:11.0.1")
+    //
+
+    // Docker client
     implementation("com.github.docker-java:docker-java:3.2.8")
     implementation("com.github.docker-java:docker-java-transport-httpclient5:3.2.8")
 

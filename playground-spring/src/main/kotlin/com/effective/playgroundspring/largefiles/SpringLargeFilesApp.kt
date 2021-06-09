@@ -1,11 +1,11 @@
-package com.effective.playgroundspring
+package com.effective.playgroundspring.largefiles
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class PlaygroundSpringApplication
+class SpringLargeFilesApp
 
 fun main(args: Array<String>) {
-    runApplication<PlaygroundSpringApplication>(*args)
+    runApplication<SpringLargeFilesApp>(*args)
 }

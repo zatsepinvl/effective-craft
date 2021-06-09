@@ -1,0 +1,11 @@
+type Query {
+    solutionById(id: String): Solution
+    solutionBySlug(slug: String):Solution
+}
+
+type Solution {
+    id: ID,
+    slug: String,
+    name: String
+}
+
