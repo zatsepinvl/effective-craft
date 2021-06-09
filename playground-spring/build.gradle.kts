@@ -30,6 +30,8 @@ dependencies {
     implementation("com.graphql-java-kickstart:graphql-spring-boot-starter:11.1.0")
     //      Generates GraphQLSchema from *.graphqls class: https://www.graphql-java-kickstart.com/tools/
     implementation("com.graphql-java-kickstart:graphql-java-tools:11.0.1")
+    //      Runs graphql playground webapp
+    runtimeOnly("com.graphql-java-kickstart:graphiql-spring-boot-starter:11.1.0")
     //
 
     // Docker client
