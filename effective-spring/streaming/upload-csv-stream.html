@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Piping a fetch response to StreamSaver</title>
+</head>
+<body>
+<button id="$start">Start</button>
+<script src="https://cdn.jsdelivr.net/npm/web-streams-polyfill@2.0.2/dist/ponyfill.min.js"></script>
+<script src="../StreamSaver.js"></script>
+<script>
+    $start.onclick = () => {
+        const url = 'http://localhost:8080/data/csv/file'
+        const fileStream = streamSaver.createWriteStream('file.csv')
+
+        fetch(url).then(res => {
+            const readableStream = res.body
+
+            // more optimized
+            if (window.WritableStream && readableStream.pipeTo) {
+                return readableStream.pipeTo(fileStream)
+                    .then(() => console.log('done writing'))
+            }
+
+            window.writer = fileStream.getWriter()
+
+            const reader = res.body.getReader()
+            const pump = () => reader.read()
+                .then(res => res.done
+                    ? writer.close()
+                    : writer.write(res.value).then(pump))
+
+            pump()
+        })
+    }
+</script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>AUTO DOWNLOADING!</h1>
+</body>
+<script>
+    const ifrm = document.createElement("iframe");
+    ifrm.id = "ifrm"
+    ifrm.name = "ifrm";
+    ifrm.style = "display: none;";
+    ifrm.onerror = function() {
+        console.log("Something wrong happened");
+    };
+    ifrm.onload = console.log;
+    ifrm.on
+    document.body.appendChild(ifrm);
+
+    const form = document.createElement("form");
+    form.style = "display: none;";
+    form.method = "POST";
+    form.action = "http://localhost:8080/data/csv/file";
+    form.target = "ifrm"
+    document.body.appendChild(form);
+
+    form.submit();
+
+    const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;;
+    iframeDoc.getElementById("")
+</script>
+</html>

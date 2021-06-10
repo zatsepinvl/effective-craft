@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<h1>AUTO DOWNLOADING!</h1>
+<script>
+    const ifrm = document.createElement("iframe");
+    ifrm.id = "ifrm"
+    ifrm.name = "ifrm";
+    ifrm.style = "display: none;";
+    document.body.appendChild(ifrm);
+
+    const form = document.createElement("form");
+    form.style = "display: none;";
+    form.method = "POST";
+    form.action = "http://localhost:8080/data/csv/file";
+    form.target = "ifrm"
+    document.body.appendChild(form);
+
+    form.submit();
+</script>
+</body>
+</html>
