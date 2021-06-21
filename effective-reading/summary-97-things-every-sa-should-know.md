@@ -6,4 +6,5 @@
 4. Communication is king; clarity and leadership, its humble servants (Mark Richards).
 5. Application architecture determines application performance (Randy Stafford).
 6. Seek the value in requested capabilities (Einar Landre).
-7. to be continued...
+7. Stand Up! (Udi Dahan). 
+8. to be continued...
