@@ -1,4 +1,5 @@
-# 97 Things Every Software Architect Should Know
+# [97 Things Every Software Architect Should Know](http://www.uni-obuda.hu/users/boraros-bakucz.andras/2014/methodology/97%20Things%20Every%20Software%20Architect%20Should%20Know.pdf)
+
 
 1. Don't put your resume ahead of the requirements (Nitin Borwankar).
 2. Simplify essential complexity; diminish accidental complexity (Neal Ford).
