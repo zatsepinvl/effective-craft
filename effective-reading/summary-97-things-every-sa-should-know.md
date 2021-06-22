@@ -1,11 +1,15 @@
 # [97 Things Every Software Architect Should Know](http://www.uni-obuda.hu/users/boraros-bakucz.andras/2014/methodology/97%20Things%20Every%20Software%20Architect%20Should%20Know.pdf)
 
 
-1. Don't put your resume ahead of the requirements (Nitin Borwankar).
-2. Simplify essential complexity; diminish accidental complexity (Neal Ford).
-3. Chances are, your biggest problem isn’t technical (Mark Ramm).
-4. Communication is king; clarity and leadership, its humble servants (Mark Richards).
-5. Application architecture determines application performance (Randy Stafford).
-6. Seek the value in requested capabilities (Einar Landre).
-7. Stand Up! (Udi Dahan). 
-8. to be continued...
+##### 1. Don't put your resume ahead of the requirements (Nitin Borwankar).
+##### 2. Simplify essential complexity; diminish accidental complexity (Neal Ford).
+##### 3. Chances are, your biggest problem isn’t technical (Mark Ramm).
+##### 4. Communication is king; clarity and leadership, its humble servants (Mark Richards).
+##### 5. Application architecture determines application performance (Randy Stafford).
+##### 6. Seek the value in requested capabilities (Einar Landre).
+##### 7. Stand Up! (Udi Dahan). 
+##### 8. Everything will ultimately fail (Michael Nygard).
+    1. Accept the your system (software, hardware) inevitably fail.
+    2. Design and implement safe failure modes in advance (see crumple zones).
+    
+##### 10. to be continued...
