@@ -11,5 +11,9 @@
 ##### 8. Everything will ultimately fail (Michael Nygard).
     1. Accept the your system (software, hardware) inevitably fail.
     2. Design and implement safe failure modes in advance (see crumple zones).
-    
+##### 9. You’re negotiating more often than you think (Michael Nygard).
+    1. Dont make concessions on the first demand.
+    2. Look for a collaborative solution-finding exercise.
+    3. We’re trained as engineers, and engineering is all about making tradeoffs.
+    4. Negotiate win-win solution without being passive aggressive.
 ##### 10. to be continued...
