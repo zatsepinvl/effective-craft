@@ -16,4 +16,14 @@
     2. Look for a collaborative solution-finding exercise.
     3. We’re trained as engineers, and engineering is all about making tradeoffs.
     4. Negotiate win-win solution without being passive aggressive.
-##### 10. to be continued...
+##### 10. Quantify (Keith Braithwaite).
+    1. If performance matters, ask for exact numbers: 
+        How many? 
+        In what period? 
+        How often? 
+        How soon? 
+        Increasing or decreasing? 
+        At what rate? 
+      Reject “Lots” and “soon” as answers.
+    2. If performance doesn't matter, ensure for that and then focuse on aspects of the system that are worth paying for.    
+##### 11. to be continued...
