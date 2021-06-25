@@ -9,21 +9,24 @@
 ##### 6. Seek the value in requested capabilities (Einar Landre).
 ##### 7. Stand Up! (Udi Dahan). 
 ##### 8. Everything will ultimately fail (Michael Nygard).
-    1. Accept the your system (software, hardware) inevitably fail.
-    2. Design and implement safe failure modes in advance (see crumple zones).
+1. Accept the your system (software, hardware) inevitably fail.
+2. Design and implement safe failure modes in advance (see crumple zones).
+
 ##### 9. You’re negotiating more often than you think (Michael Nygard).
-    1. Dont make concessions on the first demand.
-    2. Look for a collaborative solution-finding exercise.
-    3. We’re trained as engineers, and engineering is all about making tradeoffs.
-    4. Negotiate win-win solution without being passive aggressive.
+1. Dont make concessions on the first demand.
+2. Look for a collaborative solution-finding exercise.
+3. We’re trained as engineers, and engineering is all about making tradeoffs.
+4. Negotiate win-win solution without being passive aggressive.
+
 ##### 10. Quantify (Keith Braithwaite).
-    1. If performance matters, ask for exact numbers: 
-        How many? 
-        In what period? 
-        How often? 
-        How soon? 
-        Increasing or decreasing? 
-        At what rate? 
-      Reject “Lots” and “soon” as answers.
-    2. If performance doesn't matter, ensure for that and then focuse on aspects of the system that are worth paying for.    
+1. If performance matters, ask for exact numbers: 
+    How many? 
+    In what period? 
+    How often? 
+    How soon? 
+    Increasing or decreasing? 
+    At what rate? 
+  Reject “Lots” and “soon” as answers.
+2. If performance doesn't matter, ensure for that and then focuse on aspects of the system that are worth paying for.  
+    
 ##### 11. to be continued...
