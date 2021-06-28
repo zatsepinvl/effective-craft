@@ -28,5 +28,10 @@
     At what rate? 
   Reject “Lots” and “soon” as answers.
 2. If performance doesn't matter, ensure for that and then focuse on aspects of the system that are worth paying for.  
-    
-##### 11. to be continued...
+
+##### 11. One line of working code is worth 500 of specification (Keith Braithwaite).
+1. The fact is that specifications alone have no value. The ultimate goal of a software project is a production system.
+2. No design is perfect from the start; all designs need to be modified as they are implemented.
+3. Listen to the team who work on implementing your vision or better try to programm it on your own.
+
+##### 12. to be continued...
