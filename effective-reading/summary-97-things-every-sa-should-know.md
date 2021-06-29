@@ -30,8 +30,15 @@
 2. If performance doesn't matter, ensure for that and then focuse on aspects of the system that are worth paying for.  
 
 ##### 11. One line of working code is worth 500 of specification (Keith Braithwaite).
-1. The fact is that specifications alone have no value. The ultimate goal of a software project is a production system.
+1. Design matters, but the fact is that specifications alone have no value. The ultimate goal of a software project is a production system.
 2. No design is perfect from the start; all designs need to be modified as they are implemented.
 3. Listen to the team who work on implementing your vision or better try to programm it on your own.
 
-##### 12. to be continued...
+##### 12. There is no one-size-fits-all solution (Randy Stafford). 
+1. Architects must contininuosly develop and exercise "contextual sense".
+2. The most important knowledge of software patterns is the knowledge of when
+to apply them and when not to apply them, and the same is true of different
+root cause hypotheses and associated corrective actions during problem analysis.
+In both activities there is no one-size-fits-all solution.
+
+##### 13. to be continued...
