@@ -10,7 +10,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.hyperledger.fabric-chaincode-java:fabric-chaincode-shim:1.4.8'
+    implementation 'org.hyperledger.fabric-chaincode-java:fabric-chaincode-shim:1.4.5'
+    implementation 'org.hyperledger.fabric:fabric-gateway-java:1.4.5'
+    implementation 'org.json:json:20210307'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
