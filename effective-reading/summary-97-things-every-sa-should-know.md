@@ -3,6 +3,13 @@
 
 ### 1. Don't put your resume ahead of the requirements (Nitin Borwankar).
 ### 2. Simplify essential complexity; diminish accidental complexity (Neal Ford).
+1. Essential complexity represents the difficulty inherent in any domain problem or functional requirement.
+2. Accidental complexity grows from the things we feel we must build to mitigate essential complexity. 
+3. It’s the duty of the architect to solve the problems inherent in essential complexity without introducing accidental complexity.
+    1. Prefer frameworks derived from working code rather than ones cast down from ivory towers.
+    2. Look at the percentage of code you have in a solution that directly addresses the business problem versus code
+that merely services the boundary between the application and the users. 
+
 ### 3. Chances are, your biggest problem isn’t technical (Mark Ramm).
 ### 4. Communication is king; clarity and leadership, its humble servants (Mark Richards).
 ### 5. Application architecture determines application performance (Randy Stafford).
