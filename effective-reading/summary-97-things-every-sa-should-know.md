@@ -48,4 +48,9 @@ to apply them and when not to apply them depending on the context.
 3. (problem analysis) Root cause hypotheses and associated corrective actions during problem analysis depend on the context.
 4. **Problem analysis and system architecting requires accumulated contextual sense.**
 
-### 13. to be continued...
+### 13. It's nenver too early to think about performance (Rebecca Parsons).
+1. Strive to begin testing performance as soon as possible from the very begining of the project.
+2. Set up performance testing incrementaly.
+3. Why is this so important? The biggest reason is that at the very least you know the kinds of changes that made performance fall off a cliff.
+
+### 14. to be continued...
