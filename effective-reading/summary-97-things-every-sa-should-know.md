@@ -21,6 +21,10 @@ is too inefficient in its utilization of computing resources, then no amount of
 “tuning” will bring about the desired performance and scalability characteristics
 
 ### 6. Seek the value in requested capabilities (Einar Landre).
+1. Always ask "Why" and understand the real value to address the real problem, and hopefully provide a better and cheaper solution.
+2. The focus on value also simplifies prioritization: the most valuable requirements become the driving requirements.
+3. Arrange workshops and meetings where the architects’ focus is on customer needs — helping the customers to answer the “why” question.
+
 ### 7. Stand Up! (Udi Dahan). 
 ### 8. Everything will ultimately fail (Michael Nygard).
 1. Accept the your system (software, hardware) inevitably fail.
@@ -60,4 +64,7 @@ to apply them and when not to apply them depending on the context.
 2. Set up performance testing incrementaly.
 3. Why is this so important? The biggest reason is that at the very least you know the kinds of changes that made performance fall off a cliff.
 
-### 14. to be continued...
+### 14. Architecting is about balance (Randy Stafford).
+1. Software architecting is about balancing technical requirements with the business requirements of stakeholders in the project.
+
+### 15. to be continued...
