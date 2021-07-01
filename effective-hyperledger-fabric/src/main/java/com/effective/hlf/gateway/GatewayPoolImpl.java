@@ -18,8 +18,7 @@ public class GatewayPoolImpl implements GatewayPool {
             try {
                 gateways.add(gatewayFactory.createGateway());
             } catch (IOException e) {
-                //ToDo handle exception
-                e.printStackTrace();
+                throw new RuntimeException("Can not create gateway instance from factory.", e);
             }
         }
         pointer = new AtomicInteger(0);

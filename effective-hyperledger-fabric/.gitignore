@@ -1,5 +1,11 @@
-identity
-build
+# IDE
+.idea
 *.iml
 out
+
+# Gradle
+build
 .gradle
+
+# Fabric samples
+fabric-samples

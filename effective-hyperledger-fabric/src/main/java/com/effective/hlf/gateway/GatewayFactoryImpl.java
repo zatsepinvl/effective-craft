@@ -1,29 +1,28 @@
 package com.effective.hlf.gateway;
 
 import org.hyperledger.fabric.gateway.Gateway;
-import org.hyperledger.fabric.gateway.Wallet;
 
 import java.io.IOException;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 
 public class GatewayFactoryImpl implements GatewayFactory {
+    private final TransactionEventManager txEventManager;
+    private final UserIdentity user;
+    private final Path networkConfigFile;
+
+    public GatewayFactoryImpl(TransactionEventManager txEventManager, UserIdentity user, Path networkConfigFile) {
+        this.txEventManager = txEventManager;
+        this.user = user;
+        this.networkConfigFile = networkConfigFile;
+    }
+
+    @Override
     public Gateway createGateway() throws IOException {
-        Gateway.Builder builder = Gateway.createBuilder();
-        Path walletPath = Paths.get("identity", "user", "isabella", "wallet");
-        Wallet wallet = Wallet.createFileSystemWallet(walletPath);
-
-        String userName = "User1@org1.example.com";
-        Path connectionProfile = Paths.get("gateway", "networkConnection.yaml");
-
-        TransactionEventManager txEventManager = new TransactionEventManager();
-        return builder
-                .identity(wallet, userName)
-                .networkConfig(connectionProfile)
+        return Gateway.createBuilder()
+                .identity(user.getWallet(), user.getUsername())
+                .networkConfig(networkConfigFile)
                 .discovery(false)
-                .commitHandler((transactionId, network) ->
-                        new DurableCommitHandler(network, transactionId, txEventManager)
-                )
+                .commitHandler((txId, network) -> new TransactionCommitHandler(network, txId, txEventManager))
                 .connect();
     }
 }
