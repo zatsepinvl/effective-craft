@@ -1,4 +1,4 @@
-package com.effective.playgroundspring.graphql
+package com.effective.spring.graphql
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

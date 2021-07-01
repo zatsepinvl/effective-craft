@@ -1,8 +1,6 @@
 package com.effective.playground.spring
 
 import com.effective.playground.spring.cache.CacheConfig
-import com.effective.playground.spring.hystrix.HystrixConfig
-import com.effective.playground.spring.keycloak.KeycloakConfig
 import com.effective.playground.spring.permissions.PermissionConfig
 import com.effective.playground.spring.rest.RestConfig
 import com.effective.playground.spring.security.SecurityConfig
@@ -16,8 +14,6 @@ import org.springframework.context.annotation.Import
 @EnableAutoConfiguration
 @Import(
         CacheConfig::class,
-        HystrixConfig::class,
-        KeycloakConfig::class,
         PermissionConfig::class,
         RestConfig::class,
         SecurityConfig::class,

@@ -16,8 +16,11 @@ group = "com.effective"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
+val testcontainersVersion = "1.15.3"
+
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
@@ -30,6 +33,9 @@ dependencies {
 
     // Jackson
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+
+    // MongoDB
+    implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
 
     // CSV streaming
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.12.1")
@@ -53,20 +59,25 @@ dependencies {
     // Actuator
     implementation("org.springframework.boot:spring-boot-starter-actuator")
 
-    // Hystrix
-    implementation("org.springframework.cloud:spring-cloud-starter-netflix-hystrix")
-
     // Cache
     implementation("org.springframework.boot:spring-boot-starter-cache")
 
     // Documentation
     implementation("io.springfox:springfox-boot-starter:3.0.0")
 
-    // Keycloak
-    implementation("org.keycloak:keycloak-spring-boot-starter")
-
     // Spring test
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    //Test containers
+    testImplementation("org.testcontainers:junit-jupiter")
+    testImplementation("org.testcontainers:mongodb")
+}
+
+
+dependencyManagement {
+    imports {
+        mavenBom("org.testcontainers:testcontainers-bom:${testcontainersVersion}")
+    }
 }
 
 tasks.withType<KotlinCompile> {

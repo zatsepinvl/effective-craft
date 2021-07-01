@@ -1,6 +1,6 @@
-package com.solutionshub.solution.application.port.`in`
+package com.effective.spring.graphql
 
-import com.solutionshub.solution.domain.Solution
+import com.effective.spring.graphql.Solution
 
 interface SolutionQuery {
     fun getSolutionById(id: String): Solution

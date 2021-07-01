@@ -1,4 +1,4 @@
-package com.effective.playgroundspring.largefiles
+package com.effective.spring.largefiles
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

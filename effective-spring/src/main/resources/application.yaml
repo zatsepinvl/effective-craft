@@ -1,6 +1,11 @@
 server:
   port: ${SERVER_PORT:8080}
 
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://admin:password@localhost:27017/saturn-db?authSource=admin&authMechanism=SCRAM-SHA-1}
+
 management:
   endpoints:
     web:

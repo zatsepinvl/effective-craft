@@ -1,12 +1,10 @@
-package com.solutionshub.solution.adapter.`in`.web
+package com.effective.spring.graphql
 
-import com.solutionshub.annotation.Resolver
-import com.solutionshub.solution.application.port.`in`.SolutionQuery
-import com.solutionshub.solution.domain.Solution
 import graphql.kickstart.tools.GraphQLQueryResolver
+import org.springframework.stereotype.Component
 
 
-@Resolver
+@Component
 class SolutionResolver(
     private val solutionQuery: SolutionQuery,
 ) : GraphQLQueryResolver {

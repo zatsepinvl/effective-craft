@@ -1,4 +1,4 @@
-package com.solutionshub.solution.domain
+package com.effective.spring.graphql
 
 data class Solution(
     val id: String,

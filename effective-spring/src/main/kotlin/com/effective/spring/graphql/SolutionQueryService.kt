@@ -1,7 +1,7 @@
-package com.solutionshub.solution.application.service
+package com.effective.spring.graphql
 
-import com.solutionshub.solution.application.port.`in`.SolutionQuery
-import com.solutionshub.solution.domain.Solution
+import com.effective.spring.graphql.SolutionQuery
+import com.effective.spring.graphql.Solution
 import org.springframework.stereotype.Service
 import java.util.*
 
