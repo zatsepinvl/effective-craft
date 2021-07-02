@@ -41,10 +41,10 @@ services:
     ports:
       - 7050:7050
     volumes:
-        - ./config/:/etc/hyperledger/configtx
-        - ./crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/:/etc/hyperledger/msp/orderer
-        - ./crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/:/etc/hyperledger/msp/peerOrg1
-        #- ./orderer:/var/hyperledger/production/orderer
+      - ./config/:/etc/hyperledger/configtx
+      - ./crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/:/etc/hyperledger/msp/orderer
+      - ./crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/:/etc/hyperledger/msp/peerOrg1
+      #- ./orderer:/var/hyperledger/production/orderer
     networks:
       - basic
 
@@ -70,11 +70,11 @@ services:
       - 7051:7051
       - 7053:7053
     volumes:
-        - /var/run/:/host/var/run/
-        - ./crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp:/etc/hyperledger/msp/peer
-        - ./crypto-config/peerOrganizations/org1.example.com/users:/etc/hyperledger/msp/users
-        - ./config:/etc/hyperledger/configtx
-        - ./contract:/opt/gopath/src/github.com/contract
+      - /var/run/:/host/var/run/
+      - ./crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp:/etc/hyperledger/msp/peer
+      - ./crypto-config/peerOrganizations/org1.example.com/users:/etc/hyperledger/msp/users
+      - ./config:/etc/hyperledger/configtx
+      - ./contract:/opt/gopath/src/github.com/contract
     depends_on:
       - orderer.example.com
       - couchdb
@@ -101,19 +101,18 @@ services:
       - CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
       - FABRIC_LOGGING_SPEC=info
       - CORE_PEER_ID=cli
+      - FABRIC_CFG_PATH=/opt/gopath/src/github.com/hyperledger/fabric/peer #work dir
       - CORE_PEER_ADDRESS=peer0.org1.example.com:7051
       - CORE_PEER_LOCALMSPID=Org1MSP
-      - CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+      - CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
       - CORE_CHAINCODE_KEEPALIVE=10
     working_dir: /opt/gopath/src/github.com/hyperledger/fabric/peer
     command: /bin/bash
     volumes:
-        - /var/run/:/host/var/run/
-        - ./../chaincode/:/opt/gopath/src/github.com/
-        - ./crypto-config:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/
+      - ./:/opt/gopath/src/github.com/hyperledger/fabric/peer
     networks:
-        - basic
-    #depends_on:
-    #  - orderer.example.com
-    #  - peer0.org1.example.com
-    #  - couchdb
+      - basic
+    depends_on:
+      - orderer.example.com
+      - peer0.org1.example.com
+      - couchdb
