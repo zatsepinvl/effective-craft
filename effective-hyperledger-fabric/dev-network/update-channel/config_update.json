@@ -1,0 +1,42 @@
+{
+	"channel_id": "mychannel",
+	"isolated_data": {},
+	"read_set": {
+		"groups": {
+			"Orderer": {
+				"groups": {},
+				"mod_policy": "",
+				"policies": {},
+				"values": {},
+				"version": "0"
+			}
+		},
+		"mod_policy": "",
+		"policies": {},
+		"values": {},
+		"version": "0"
+	},
+	"write_set": {
+		"groups": {
+			"Orderer": {
+				"groups": {},
+				"mod_policy": "",
+				"policies": {},
+				"values": {
+					"BatchTimeout": {
+						"mod_policy": "Admins",
+						"value": {
+							"timeout": "20s"
+						},
+						"version": "1"
+					}
+				},
+				"version": "0"
+			}
+		},
+		"mod_policy": "",
+		"policies": {},
+		"values": {},
+		"version": "0"
+	}
+}

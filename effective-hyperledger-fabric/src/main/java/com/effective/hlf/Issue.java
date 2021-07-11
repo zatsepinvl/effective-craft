@@ -21,7 +21,7 @@ import java.util.concurrent.TimeoutException;
 public class Issue {
 
     public static void main(String[] args) throws ContractException, InterruptedException, TimeoutException {
-        LoggingUtils.setHlfSdkGlobalLogLevel(Level.INFO);
+        LoggingUtils.setHlfSdkGlobalLogLevel(Level.DEBUG);
 
         UserIdentity isabellaUser = BasicNetworkUsers.getIsabellaUserIdentity();
         Path networkConfigFile = BasicNetwork.getNetworkConfigPath();
