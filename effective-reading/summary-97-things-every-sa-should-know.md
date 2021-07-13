@@ -12,6 +12,15 @@ that merely services the boundary between the application and the users.
 
 ### 3. Chances are, your biggest problem isn’t technical (Mark Ramm).
 ### 4. Communication is king; clarity and leadership, its humble servants (Mark Richards).
+1. The key to effective communication is clarity and leadership.
+2. Keep things as simple as possible at the start of a project.
+3. Throw away the lengthy Word documents and focus more on getting your ideas across.
+4. Create simple diagrams to convey your thoughts. 
+5. Record the details of your architectural decisions ([Use Architectural Decision Records](https://adr.github.io/)).
+5. Conduct informal whiteboard meetings.
+6. Communicate with developers, work with developers, not against them.
+7. Gain the respect of your co-workers to work in a healthy and effective environment.
+
 ### 5. Application architecture determines application performance (Randy Stafford).
 1. Appreciate that application architecture is the primary determinant of application performance
 and scalability.
@@ -27,7 +36,7 @@ is too inefficient in its utilization of computing resources, then no amount of
 
 ### 7. Stand Up! (Udi Dahan). 
 ### 8. Everything will ultimately fail (Michael Nygard).
-1. Accept the your system (software, hardware) inevitably fail.
+1. Accept that your system (software, hardware) inevitably fail.
 2. Design and implement safe failure modes in advance (see crumple zones).
 
 ### 9. You’re negotiating more often than you think (Michael Nygard).
@@ -67,4 +76,10 @@ to apply them and when not to apply them depending on the context.
 ### 14. Architecting is about balance (Randy Stafford).
 1. Software architecting is about balancing technical requirements with the business requirements of stakeholders in the project.
 
-### 15. to be continued...
+### 15. Commit-and-run is a crime (Niclas Nilsson).
+1. Commit-and-run is a crime because it kills flow and stops the development.
+2. Implement autometed tests that will build and check every commit. 
+3. Make tests fast. People should not wait for computers, or they will take shortcuts otherwise, which often causes problems for others.
+4. Invest time in making the development environment fast to work with.
+
+### 16. to be continued...
